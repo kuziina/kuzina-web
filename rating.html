@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+       <title>Список бестселлеров</title> 
+    </head>
+    <body>
+       <nav class="menu">
+            <a href="main.html">Главная</a><br>
+            <a href="rating.html">Список бестселлеров</a> <br>
+        </nav>
+        <hr>
+        <details>
+            <summary>График</summary>
+            <form>
+                <table>
+                    <tr><th>OX</th> <th>OY</th></tr>
+                    <tr><td>
+                            <input type="radio" name="ox">Жанр<br>   
+                            <input type="radio" name="ox">Год
+                    </td> 
+                <td><input type="radio" name="oy">Рейтинг<br>
+                            <input type="radio" name="oy">Количество книг<br>   
+                            <input type="radio" name="oy">Год
+                    </td> </tr>
+
+                </table>   
+                <input type="submit" value="Построить"> 
+            </form>   
+        </details>
+        <details>
+            <summary>Фильтр</summary>
+            <form>
+                <p>
+                <label>
+                Название
+                <input type="text">
+                </label></p>
+                <p>
+                <label>
+                    Автор
+                    <input type="text">
+                </label></p>
+                <p>
+                <label>
+                    Год: от
+                    <input type="number" min="2010" max="2025"></label> до <input type="number" min="2010" max="2025">
+                </p>
+                <p>
+                <label>
+                    Жанр
+                    <input type="text">
+                </label></p>
+                <p>
+                <label>
+                    Рейтинг: от
+                    <input type="number" min="0" max="5"></label> до <input type="number" min="0" max="5">
+                </p>
+                <input type="submit" value="Найти">
+            </form> 
+        </details>
+        <details>
+            <summary>Сортировка</summary>
+            <form>
+               <p>
+                <label>
+                1. 
+                <select>
+                    <option value="0"> Название </option>
+                    <option value="1"> Автор </option>
+                    <option value="2"> Год </option>
+                    <option value="3"> Жанр </option>
+                    <option value="4"> Рейтинг </option>
+                    <option value="5" selected> - </option>
+                </select></label> по <select>
+                    <option value="0"> возрастанию </option>
+                    <option value="1"> убыванию </option>
+                </select>
+                 </p>
+                <p>
+                <label>
+                2. 
+                <select>
+                    <option value="0"> Название </option>
+                    <option value="1"> Автор </option>
+                    <option value="2"> Год </option>
+                    <option value="3"> Жанр </option>
+                    <option value="4"> Рейтинг </option>
+                    <option value="5" selected> - </option>
+                </select></label> по <select>
+                    <option value="0"> возрастанию </option>
+                    <option value="1"> убыванию </option>
+                </select>
+                </p>
+                <p>
+                <label>
+                3. 
+                <select>
+                    <option value="0"> Название </option>
+                    <option value="1"> Автор </option>
+                    <option value="2"> Год </option>
+                    <option value="3"> Жанр </option>
+                    <option value="4"> Рейтинг </option>
+                    <option value="5" selected> - </option>
+                </select></label> по <select>
+                    <option value="0"> возрастанию </option>
+                    <option value="1"> убыванию </option>
+                </select>
+                </p> 
+                <p>
+                <label>
+                4. 
+                <select>
+                    <option value="0"> Название </option>
+                    <option value="1"> Автор </option>
+                    <option value="2"> Год </option>
+                    <option value="3"> Жанр </option>
+                    <option value="4"> Рейтинг </option>
+                    <option value="5" selected> - </option>
+                </select></label> по <select>
+                    <option value="0"> возрастанию </option>
+                    <option value="1"> убыванию </option>
+                </select>
+                </p> 
+                <input type="submit" value="Сортировать">
+            </form> 
+        </details>
+        <br>
+        <table border="1" cellspacing="0" cellpadding="5" width="95%" align="center"> 
+            <tbody align="center">
+            <tr><th>№</th> <th>Название</th> <th>Автор</th> <th>Год издания</th> <th>Жанр</th> <th>Рейтинг</th></tr>
+            <tr><td>1</td> <td>Цветы для Элджернона</td> <td>Дэниел Киз</td> <td>2015</td> <td>Фантистика</td> <td>4,6</td></tr>
+            <tr><td>2</td> <td>Гарри Поттер и философский камень</td> <td>Джоан Роулинг</td> <td>2017</td> <td>Фэнтези</td> <td>4,7</td></tr>
+            <tr><td>3</td> <td>1984</td> <td>Джордж Оруэлл</td> <td>2021</td> <td>Фантистика</td> <td>4,4</td></tr>
+            <tr><td>4</td> <td>451° по Фаренгейту</td> <td>Рэй Брэдбери</td> <td>2021</td> <td>Фантастика</td> <td>4,3</td></tr>
+            <tr><td>5</td> <td>Мастер и Маргарита</td> <td>Михаил Булгаков</td> <td>2015</td> <td>Роман</td> <td>4,54</td></tr>
+            <tr><td>6</td> <td>Портрет Дориана Грея</td> <td>Оскар Уайльд</td> <td>2021</td> <td>Классика</td> <td>4,28</td></tr>
+            <tr><td>7</td> <td>Гордость и предубеждение</td> <td>Джейн Остин</td> <td>2019</td> <td>Роман</td> <td>4,52</td></tr>
+            <tr><td>8</td> <td>Гарри Поттер и узник Азкабана</td> <td>Джоан Роулинг</td> <td>2019</td> <td>Фэнтези</td> <td>4,77</td></tr>
+            <tr><td>9</td> <td>Гарри Поттер и Тайная комната</td> <td>Джоан Роулинг</td> <td>2016</td> <td>Фэнтези</td> <td>4,73</td></tr>
+            <tr><td>10</td> <td>Вторая жизнь Уве</td> <td>Фредрик Бакман</td> <td>2021</td> <td>Роман</td> <td>4,62</td></tr>
+            <tr><td>11</td> <td>Убить пересмешника</td> <td>Харпер Ли</td> <td>2018</td> <td>Классика</td> <td>4,56</td></tr>
+            <tr><td>12</td> <td>Джейн Эйр</td> <td>Шарлотта Бронте</td> <td>2011</td> <td>Классика</td> <td>4,46</td></tr>
+            <tr><td>13</td> <td>Мартин Иден</td> <td>Джек Лондон</td> <td>2014</td> <td>Классика</td> <td>4,53</td></tr>
+            <tr><td>14</td> <td>Гарри Поттер и Кубок огня</td> <td>Джоан Роулинг</td> <td>2019</td> <td>Фэнтези</td> <td>4,74</td></tr>
+            <tr><td>15</td> <td>Десять негритят</td> <td>Агата Кристи</td> <td>2012</td> <td>Детектив</td> <td>4,61</td></tr>
+            <tr><td>16</td> <td>Преступление и наказание</td> <td>Фёдор Достоевский</td> <td>2012</td> <td>Классика</td> <td>4,4</td></tr>
+            <tr><td>17</td> <td>Мара и Морок</td> <td>Лия Арден</td> <td>2020</td> <td>Фэнтези</td> <td>4,38</td></tr>
+            <tr><td>18</td> <td>Великий Гэтсби</td> <td>Фрэнсис Скотт Фицджеральд</td> <td>2018</td> <td>Классика</td> <td>4,13</td></tr>
+            <tr><td>19</td> <td>Книжный вор</td> <td>Маркус Зусак</td> <td>2016</td> <td>Роман</td> <td>4,58</td></tr>
+            <tr><td>20</td> <td>Повелитель мух</td> <td>Уильям Голдинг</td> <td>2017</td> <td>Классика</td> <td>4,02</td></tr>
+            <tr><td>21</td> <td>Тринадцатая сказка</td> <td>Тринадцатая сказка</td> <td>2015</td> <td>Роман</td> <td>4,31</td></tr>
+            <tr><td>22</td> <td>О дивный новый мир</td> <td>Олдос Хаксли</td> <td>2020</td> <td>Классика</td> <td>4,16</td></tr>
+            <tr><td>23</td> <td>Герой нашего времени</td> <td>Михаил Лермонтов</td> <td>2013</td> <td>Классика</td> <td>4,32</td></tr>
+            <tr><td>24</td> <td>Над пропастью во ржи</td> <td>Джером Д. Сэлинджер</td> <td>2013</td> <td>Классика</td> <td>3,73</td></tr>
+            <tr><td>25</td> <td>Гарри Поттер и Орден Феникса</td> <td>Джоан Роулинг</td> <td>2015</td> <td>Фэнтези</td> <td>4,71</td></tr>
+            <tr><td>26</td> <td>Шестерка воронов</td> <td>Ли Бардуго</td> <td>2021</td> <td>Фэнтези</td> <td>4,58</td></tr>
+            <tr><td>27</td> <td>Мара и Морок. Особенная Тень</td> <td>Лия Арден</td> <td>2020</td> <td>Фэнтези</td> <td>4,47</td></tr>
+            <tr><td>28</td> <td>Тревожные люди</td> <td>Фредрик Бакман</td> <td>2020</td> <td>Роман</td> <td>4,4</td></tr>
+            <tr><td>29</td> <td>Таинственная история Билли Миллигана</td> <td>Дэниел Киз</td> <td>2011</td> <td>
+Документальный роман</td> <td>4,41</td></tr>
+            <tr><td>30</td> <td>Три товарища</td> <td>Эрих Мария Ремарк</td> <td>2019</td> <td>Классика</td> <td>4,53</td></tr>
+            <tr><td>31</td> <td>Коллекционер</td> <td>Джон Фаулз</td> <td>2015</td> <td>Триллер</td> <td>4,19</td></tr>
+            <tr><td>32</td> <td>Безмолвный пациент</td> <td>Алекс Михаэлидес</td> <td>2020</td> <td>Детектив</td> <td>4,11</td></tr>
+            <tr><td>33</td> <td>Гарри Поттер и Дары Смерти</td> <td>Джоан Роулинг</td> <td>2015</td> <td>Фэнтези</td> <td>4,75</td></tr>
+            <tr><td>34</td> <td>Маленькие женщины</td> <td>Луиза Мэй Олкотт</td> <td>2020</td> <td>Классика</td> <td>4,31</td></tr>
+            <tr><td>35</td> <td>Тень и кость</td> <td>Ли Бардуго</td> <td>2021</td> <td>Фэнтези</td> <td>4,12</td></tr>
+            <tr><td>36</td> <td>Внутри убийцы</td> <td>Майк Омер</td> <td>2020</td> <td>Триллер</td> <td>4,38</td></tr>
+            <tr><td>37</td> <td>Дом, в котором...</td> <td>Мариам Петросян</td> <td>2023</td> <td>Роман</td> <td>4,42</td></tr>
+            <tr><td>38</td> <td>Воздушный народ. Жестокий принц</td> <td>Холли Блэк</td> <td>2022</td> <td>Фэнтези</td> <td>4,27</td></tr>
+            <tr><td>39</td> <td>Ребекка</td> <td>Дафна дю Морье</td> <td>2020</td> <td>Триллер</td> <td>4,33</td></tr>
+            <tr><td>40</td> <td>Тайная история</td> <td>Донна Тартт</td> <td>2021</td> <td>Детектив</td> <td>4,32</td></tr>
+            <tr><td>41</td> <td>Восхитительная ведьма</td> <td>Анна Джейн</td> <td>2020</td> <td>Любовный роман</td> <td>4,57</td></tr>
+            <tr><td>42</td> <td>Прислуга</td> <td>Кэтрин Стокетт</td> <td>2016</td> <td>Классика</td> <td>4,68</td></tr>
+            <tr><td>43</td> <td>КлаТбище домашних жЫвотных</td> <td>Стивен Кинг</td> <td>2022</td> <td>Ужасы</td> <td>4,37</td></tr>
+            <tr><td>44</td> <td>Жареные зеленые помидоры в кафе «Полустанок»</td> <td>Фэнни Флэгг</td> <td>2017</td> <td>Роман</td> <td>4,3</td></tr>
+            <tr><td>45</td> <td>Продажное королевство</td> <td>Ли Бардуго</td> <td>2018</td> <td>Фэнтези</td> <td>4,65</td></tr>
+            <tr><td>46</td> <td>Королевство шипов и роз</td> <td>Сара Дж. Маас</td> <td>2020</td> <td>Фэнтези</td> <td>4,28</td></tr>
+            <tr><td>47</td> <td>Поющие в терновнике</td> <td>Колин Маккалоу</td> <td>2020</td> <td>Любовный роман</td> <td>4,49</td></tr>
+            <tr><td>48</td> <td>Триумфальная арка</td> <td>Эрих Мария Ремарк</td> <td>2020</td> <td>Классика</td> <td>4,46</td></tr>
+            <tr><td>49</td> <td>Зеленая миля</td> <td>Стивен Кинг</td> <td>2022</td> <td>Ужасы</td> <td>4,71</td></tr>
+            <tr><td>50</td> <td>Зов Кукушки</td> <td>Роберт Гэлбрейт</td> <td>2019</td> <td>Детектив</td> <td>4,14</td></tr>
+            </tbody>
+        </table>    
+    </body>
+</html>
