@@ -1,0 +1,109 @@
+nav{
+    border: solid thin grey;
+    background-color:rgba(255, 255, 255, 0.64);
+    border-radius: 6px;
+    height: 30px;
+    padding: 5px;
+    align-items: center
+}
+
+nav a{
+    padding: 5px;
+  text-decoration: none; 
+  display: inline-block; 
+  margin-left: 10px;
+  color:rgb(71, 163, 244); 
+}
+
+.menu{
+  background-color: rgb(71, 163, 244);  
+  border-radius: 3px;
+  padding: 5px;
+  color:white;
+}
+
+.button{
+    background-color: rgb(71, 163, 244);
+    color:white;
+    border-radius: 5px;
+}
+
+.searching{
+    float: right;
+    margin-top: 3px;
+}
+
+.gallery img{
+    height: 20vw;
+    width: 10vw;
+    display: inline-block;
+}
+
+
+.gallery img.centerImage{
+    width: 30vw;
+}
+
+.circle-photo{
+    display: inline-block;
+    margin: 1% 5%;
+    text-align: center;
+    width: 23%;
+    vertical-align: top;
+}
+
+.circle-photo img{
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+}
+
+.circle-photo input{
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(71, 163, 244);
+}
+
+.block1 div img{
+    float: left;
+    width: 20%;
+    margin-top: 100px;
+}
+
+.block3 div img{
+    float: left;
+    width: 20%;
+    margin-top: 30px;
+}
+
+.block1 .text,.block3 .text{
+    float: left;
+    width: 75%;
+}
+
+.text a{
+    color:rgb(163, 132, 95);
+}
+
+.block2{
+    clear: both;
+}
+
+.block2 div img{
+    float: right;
+    width: 20%;
+}
+
+.block2 .text{
+    float: left;
+    width: 75%;
+}
+
+.block2 .text h3,
+.block2 .text p{
+    text-align: right;
+}
+
+hr{
+    clear: both;
+}
