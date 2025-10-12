@@ -1,70 +1,131 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="utf-8">
-        <title>Книжные бестселлеры десятилетия</title>
-    </head>
-    <body background="image/15740871_268_Organic_White_Background.jpg">
-        <nav class="menu">
-            <a href="main.html">Главная</a><br>
-            <a href="rating.html">Список бестселлеров</a> <br>
-        </nav>
-        <hr>
-        
-        <h1 align="center">Эпоха книжных феноменов: Что читал мир с 2015 по 2025 год</h1>
 
-        <hr>
+<head>
+    <meta charset="utf-8">
+    <title>Книжные бестселлеры десятилетия</title>
+    <link rel="stylesheet" type="text/css" href="mainStyle.css">
+</head>
 
-        <p align="center">
-            <a href="book.html"><img src="image/Stiven_King__Ono.jpeg" alt="Оно" width="100" height="150" hspace="10"></a>
-            <img src="image/Frensis_Skott_Fitsdzherald__Velikij_Getsbi.jpeg" alt="Великий Гетсби" width="100" height="150" hspace="10">
-            <img src="image/Harper_Li__Ubit_peresmeshnika.jpeg" alt="Убить пересмешника" width="100" height="150" hspace="10">
-            <img src="image/Rej_Bredberi__451_po_Farengejtu.jpeg" alt="451 градус по Фаренгейту" width="100" height="150" hspace="10">
-            <img src="image/Dafna_dyu_More__Rebekka.jpeg" alt="Ребекка" width="100" height="150" hspace="10">
-            <img src="image/Dzhon_Grin__Bumazhnye_goroda.jpeg" alt="Бумажные города" width="100" height="150" hspace="10">
-            <img src="image/Elizabet_Gilbert__Gorod_zhenschin.jpeg" alt="Город женщин" width="100" height="150" hspace="10">
-            <img src="image/Nil_Gejman__Amerikanskie_bogi.jpeg" alt="Американские боги"  width="100" height="150" hspace="10">
-            <img src="image/Stiven_Chboski__Horosho_byt_tihonej.jpeg" alt="Хорошо быть тихоней" width="100" height="150" hspace="10">
-            <img src="image/Piter_Boland__Ubijstva_i_keksiki.jpeg" alt="Убийства и кексики" width="100" height="150" hspace="10">
-            <img src="image/Rebekka_Yarros__Zheleznoe_plamya.jpeg" alt="Железное пламя" width="100" height="150" hspace="10">
-        </p>
+<body background="image/15740871_268_Organic_White_Background.jpg">
+    <nav>
+        <div align="center">
+            <a class="menu" href="main.html">Главная</a>
+            <a href="rating.html">Список бестселлеров</a>
+            <a href="">Экранизации</a>
+            <a href="">Книжные новинки</a>
+            <form class="searching">
+                <input type="text" placeholder="Найти" id="search">
+                <input class="button" type="button" value="Поиск" id="searchButton">
+            </form>
+        </div>
+    </nav>
+    <hr>
 
-        <hr>
+    <h1 align="center">Эпоха книжных феноменов: Что читал мир с 2015 по 2025 год</h1>
 
-        <p><big><i>Последнее десятилетие стало для литературы временем настоящей революции. Книги перестали быть просто текстом на бумаге — 
-            они превратились в культурные катализаторы, рождающие блокбастеры, 
-            горячие дискуссии в соцсетях и целые читательские вселенные. 
-            Это эпоха, когда алгоритмы начали рекомендовать нам романы, а книжные клубы переехали в TikTok. 
-            Давайте оглянемся на главные явления, которые определяли книжный мир с 2015 по 2025 год.</i></big></p>
-        <h2 align="center">Тенденции книжного рынка</h2>
+    <hr>
 
-        <p>За последнее десятилетие книжный рынок претерпел значительные изменения. 
-            Если в <i>2015</i> году доминировали традиционные бумажные издания, то к <i>2025</i> году 
-            электронные и аудиокниги заняли более <b>40%</b> рынка.
-        </p>
-                
-        <p>Наблюдается устойчивый рост интереса к <b>нон-фикшн литературе</b>: книги по психологии, саморазвитию и бизнесу стали настоящими бестселлерами.
-             Особенно заметен всплеск популярности после 2020 года.
-        </p>
+    <p align="center" class="gallery">
+        <a href="book.html"><img src="image/Stiven_King__Ono.jpeg" alt="Оно"></a>
+        <img src="image/Frensis_Skott_Fitsdzherald__Velikij_Getsbi.jpeg" alt="Великий Гетсби">
+        <img src="image/Harper_Li__Ubit_peresmeshnika.jpeg" alt="Убить пересмешника">
+        <img class="centerImage" src="image/Rej_Bredberi__451_po_Farengejtu.jpeg" alt="451 градус по Фаренгейту">
+        <img src="image/Dafna_dyu_More__Rebekka.jpeg" alt="Ребекка">
+        <img src="image/Dzhon_Grin__Bumazhnye_goroda.jpeg" alt="Бумажные города">
+        <img src="image/Nil_Gejman__Amerikanskie_bogi.jpeg" alt="Американские боги">
+    </p>
+
+    <hr>
+
+    <div>
+        <div class="circle-photo"><img src="image/Stiven_Chboski__Horosho_byt_tihonej.jpeg" alt="Хорошо быть тихоней">
+            <h4>Хорошо быть тихоней</h4>
+            <p>Трогательная история взросления Чарли <br> через письма к анонимному другу</p>
+            <input type="button" value="Подробнее»">
+        </div>
+        <div class="circle-photo"><img src="image/Piter_Boland__Ubijstva_i_keksiki.jpeg" alt="Убийства и кексики">
+            <h4>Убийства и кексики</h4>
+            <p>Ироничный детектив о бабушке-сыщице, <br>расследующей преступления между выпечкой кексов</p>
+            <input type="button" value="Подробнее»">
+        </div>
+        <div class="circle-photo"><img src="image/Rebekka_Yarros__Zheleznoe_plamya.jpeg" alt="Железное пламя">
+            <h4>Железное пламя</h4>
+            <p>Эпическое фэнтези о драконьих всадниках <br>и их борьбе за выживание в военной академии</p>
+            <input type="button" value="Подробнее»">
+        </div>
+    </div>
+
+    <div class="block1">
+        <div>
+            <img src="image/scale_1200.png" alt="График роста" height="150">
+        </div>
+        <div class="text">
+            <h3>Тенденции книжного рынка</h3>
+
+            <p>За последнее десятилетие книжный рынок претерпел значительные изменения.
+                Если в <i>2015</i> году доминировали традиционные бумажные издания, то к <i>2025</i> году
+                электронные и аудиокниги заняли более <b>40%</b> рынка.
+            </p>
+
+            <p>Наблюдается устойчивый рост интереса к <b>нон-фикшн литературе</b>: книги по психологии, саморазвитию и
+                бизнесу стали настоящими бестселлерами.
+                Особенно заметен всплеск популярности после 2020 года.
+            </p>
 
             Ключевые изменения:<ul>
-            <li>Рост доли электронных книг</li> 
-            <li>Увеличение среднего тиража бестселлеров</li> 
-            <li>Появление новых жанровых гибридов</li> 
-            <li>Активное влияние соцсетей на книжные тренды</li> 
-        </ul> <img src="image/scale_1200.png" alt="График роста" height="150">
+                <li>Рост доли электронных книг</li>
+                <li>Увеличение среднего тиража бестселлеров</li>
+                <li>Появление новых жанровых гибридов</li>
+                <li>Активное влияние соцсетей на книжные тренды</li>
+            </ul>
+            <a href="">Подробнее»</a>
+        </div>
 
-        <h2 align="center">Феномен книг-бестселлеров</h2>
-         Что превращает обычную книгу в бестселлер? Анализ данных последних 10 лет показывает несколько ключевых факторов успеха:
-       <p align="right"><img src="image/1586125718_preview_question-symbol.png" alt="Рисунок вопроса" height="200"></p>
+    </div>
+
+    <div class="block2">
+        <div><img src="image/1586125718_preview_question-symbol.png" alt="Рисунок вопроса" height="200"></div>
+        <div class="text">
+            <h3>Феномен книг-бестселлеров</h3>
+            Что превращает обычную книгу в бестселлер? Анализ данных последних 10 лет показывает несколько ключевых
+            факторов успеха:
             <ul>
-            <li><b>Маркетинг и продвижение:</b> Более 60% бестселлеров имели агрессивную рекламную кампанию и активное присутствие в социальных сетях.</li>
-            <li><b>Экранизации:</b> Каждая третья экранизация увеличивала продажи оригинала на 200-400% в течение года после выхода фильма.</li>
-            <li><b>Социальная значимость:</b> Книги, поднимающие актуальные социальные вопросы, демонстрировали стабильно высокие продажи независимо от жанра.</li>
-        </ul>
-        
-        <hr>
+                <li><b>Маркетинг и продвижение:</b> Более 60% бестселлеров имели агрессивную рекламную кампанию и
+                    активное присутствие в социальных сетях.</li>
+                <li><b>Экранизации:</b> Каждая третья экранизация увеличивала продажи оригинала на 200-400% в течение
+                    года после выхода фильма.</li>
+                <li><b>Социальная значимость:</b> Книги, поднимающие актуальные социальные вопросы, демонстрировали
+                    стабильно высокие продажи независимо от жанра.</li>
+            </ul>
+            <p><a href="">Подробнее»</a></p>
+        </div>
+    </div>
 
-        <footer> Кузина Екатерина Б9123-09.03.04(4)</footer>
-    </body>
+    <div class="block3" style="clear: both;">
+        <div><img src="image/f57efa197929210b63c2a3739938b777.png" alt="соцсети" height="300"></div>
+        <div class="text">
+            <h3>Влияние книжных рекомендаций в соцсетях</h3>
+            <p>За последние 5 лет мы наблюдаем настоящую трансформацию в способах продвижения книг. Если в 2018 году
+                только 15% издателей активно использовали соцсети,
+                то сегодня эта цифра превышает 85%. Влияние книжных блогеров
+                на продажи выросло в 3 раза, а одному удачному посту в TikTok под силу обеспечить рост продаж на 25-30%
+                всего за неделю.</p>
+            Платформенные предпочтения читателей распределились следующим образом:
+            <ul>
+                <li><b>TikTok</b> - 45% продаж молодёжной литературы, средний возраст аудитории 16-25 лет</li>
+                <li><b>Instagram</b> - эстетичный контент обеспечивает рост продаж художественной литературы на 35%</li>
+                <li><b>YouTube</b> - глубокие аналитические обзоры влияют на продажи нон-фикшн литературы и классики
+                </li>
+                <li><b>Telegram-каналы</b> - нишевые литературные сообщества формируют устойчивый спрос на
+                    интеллектуальную прозу</li>
+            </ul>
+            <a href="">Подробнее»</a>
+        </div>
+    </div>
+
+    <hr>
+    <footer> Кузина Екатерина Б9123-09.03.04(4) 2025г</footer>
+</body>
+
 </html>
