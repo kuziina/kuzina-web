@@ -1,0 +1,66 @@
+p, input, div, select {
+    font-size: large;
+}
+
+h2 {
+    text-align: center;
+}
+
+#pic {
+    width: 500px;
+    height: 350px; 
+    border: 1px solid #ccc; 
+    margin: 20px auto; 
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+input[type='button'] {
+    background-color: rgb(9, 100, 186);
+    color: white;
+    border-radius: 5px;
+}
+
+.error { 
+    border: solid thin red; 
+} 
+
+.errorText {
+    color: red;
+}
+
+input[type='number'] {
+    width: 50px;
+    margin: 4px;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px;
+}
+
+select {
+    margin-top: 7px;
+}
+
+#output {
+    background-color:rgb(219, 246, 255);
+    width: 100%;
+    margin: 0 auto;
+    grid-column: 1/3;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.result {
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+}
